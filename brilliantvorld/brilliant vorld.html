@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>brilliant vorld</title>
+<style type="text/css">
+#f1_container {
+  margin: 10px auto;
+  width: 100%;
+  height: 300px;
+  
+}
+
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+
+.face{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.back.face{
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+.img{
+  
+	height: 100%;
+	width: 100%;
+}
+.c{
+float:middle;
+font-size:43;
+color:white;
+text-decoration:none;
+}
+z{
+float:right;
+font-size:40;
+color:white;
+text-decoration:none;
+}
+d{
+float:left;
+font-size:40;
+color:white;
+text-decoration:none;
+}
+</style>
+</head>
+<body bgcolor="sky blue">
+<div id="f1_container">
+<div id="f1_card">
+  <div class="face">
+    <img src="vorld.jpg" class="img"
+    />
+  </div>
+  <div class="back face">
+    <p style="color:red; font-size:30px;">HOME PAGE.</p>
+<p>This home page include all useful direct links for users</p> 
+  </div>
+</div>
+</div>
+<hr><br>
+<a href="our basic profile.html">
+<d>
+our Basic Profile
+</d>
+<img src="kick1.jpg" height="40px" width="70px">
+</a>
+<a href="search.html">
+<z><img src="m.jpg" height="40px" width="70px">Easy Search</z></a> 
+<marquee behavior="alternate">
+
+<img src="smile.jpg" height="29px" width="29px">
+<a href="magic.html" class="c">..............OUR Magic World................</a>
+<img src="smile.jpg" height="29px" width="29px">
+
+</marquee>
+<marquee direction="right" behavior="alternate">
+<img src="net.jpg" height="45px" width="70px">
+<a href="sites.html" class="c">
+.......ADMIN'S NetworKING Sites......
+</a>
+
+<img src="net.jpg" height="45px" width="70px">
+</marquee>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102906236-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
